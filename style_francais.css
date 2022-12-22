@@ -149,7 +149,6 @@ li {
     color: white;
     display: inline-block;
     text-align : center;
-    /*le style de la balise p empêche de changer la taille de cette partie du texte*/
     font-size: 13px;
 }
 
@@ -260,33 +259,32 @@ a.lien_fin:active {
         margin: 20px 8% 20px 8%;
     }
     
+            .button1 {
+        padding: 23px 3px 23px 3px;
+        margin-top: -470px;
+        margin-left: 140px;
+        margin-bottom: -50px;
+    }
+    
         #texte_bouton1 {
-        background-color: #DBD39C;
-        border: 3px solid #711907;
-        text-align: center;
-        display: inline-block;
-        border-radius: 10px;
-        width: 35%;
-        padding: 6px;
         margin-left: 550px;
         margin-right: -200px;
         margin-top: -180px;
         margin-bottom: 114px;
     }
 
+    .button2 {
+        padding: 23px 3px 23px 3px;
+        margin-left: 100px;
+        margin-top: -900px;
+    }
+    
     #texte_bouton2 {
         display: inline-block;
         text-align: center;
-        background-color: #DBD39C;
-        border: 3px solid #711907;
-        text-align: center;
-        border-radius: 10px;
-        width: 50%;
-        padding-top: 13px;
         margin-left: 450px;
         margin-right: -800px;
         margin-top: -400px;
         margin-bottom: 353px;
     }
-
 }
