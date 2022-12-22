@@ -108,29 +108,20 @@ li {
     background-color: #DBD39C;
     border: 3px solid #711907;
     text-align: center;
-    display: inline-block;
+    display: block;
     border-radius: 10px;
     width: 35%;
     padding: 6px;
-    margin-left: 550px;
-    margin-right: -200px;
-    margin-top: -180px;
-    margin-bottom: 114px;
 }
 
 #texte_bouton2 {
-    display: inline-block;
-    text-align: center;
+    display: block;
     background-color: #DBD39C;
     border: 3px solid #711907;
     text-align: center;
     border-radius: 10px;
     width: 50%;
     padding-top: 13px;
-    margin-left: 450px;
-    margin-right: -800px;
-    margin-top: -400px;
-    margin-bottom: 353px;
 }
 
 .button1 {
@@ -263,6 +254,35 @@ a.lien_fin:active {
     .contenu {
         max-width: none;
         margin: 20px 8% 20px 8%;
+    }
+    
+        #texte_bouton1 {
+        background-color: #DBD39C;
+        border: 3px solid #711907;
+        text-align: center;
+        display: inline-block;
+        border-radius: 10px;
+        width: 35%;
+        padding: 6px;
+        margin-left: 550px;
+        margin-right: -200px;
+        margin-top: -180px;
+        margin-bottom: 114px;
+    }
+
+    #texte_bouton2 {
+        display: inline-block;
+        text-align: center;
+        background-color: #DBD39C;
+        border: 3px solid #711907;
+        text-align: center;
+        border-radius: 10px;
+        width: 50%;
+        padding-top: 13px;
+        margin-left: 450px;
+        margin-right: -800px;
+        margin-top: -400px;
+        margin-bottom: 353px;
     }
 
 }
