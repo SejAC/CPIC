@@ -258,5 +258,9 @@ a.lien_fin:active {
         margin-left: auto;
         margin-right: auto;
     }
+    
+    .contenu {
+        max-width: none;
+    }
 
 }
