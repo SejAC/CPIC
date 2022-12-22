@@ -110,8 +110,8 @@ li {
 }
 
 #texte_bouton1 {
-    position: absolute;
-    top: 5px;
+    position: relative;
+    
     right: 0px;
     background-color: #DBD39C;
     border: 3px solid #711907;
@@ -119,7 +119,7 @@ li {
     display: block;
     border-radius: 10px;
     width: 35%;
-    padding: 6px;
+    padding: 13px;
 }
 
 .button2 {
@@ -129,16 +129,16 @@ li {
 }
 
 #texte_bouton2 {
-    position: absolute;
-    top: 5px;
+    position: relative;
+    
     right: 0px;
-    display: block;
     background-color: #DBD39C;
     border: 3px solid #711907;
     text-align: center;
+    display: block;
     border-radius: 10px;
     width: 50%;
-    padding-top: 13px;
+    padding: 13px;
 }
 
 .titre_liste {
