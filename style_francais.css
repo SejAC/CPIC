@@ -103,8 +103,18 @@ li {
     transition: 0.5s;
 }
 
+.button1 {
+    position: relative;
+    padding: 23px 3px 23px 3px;
+    margin-top: -470px;
+    margin-left: 140px;
+    margin-bottom: -50px;
+}
 
 #texte_bouton1 {
+    position: absolute;
+    top: 5px;
+    right: 0px;
     background-color: #DBD39C;
     border: 3px solid #711907;
     text-align: center;
@@ -114,7 +124,17 @@ li {
     padding: 6px;
 }
 
+.button2 {
+    position: relative;
+    padding: 23px 3px 23px 3px;
+    margin-left: 100px;
+    margin-top: -900px;
+}
+
 #texte_bouton2 {
+    position: absolute;
+    top: 5px;
+    right: 0px;
     display: block;
     background-color: #DBD39C;
     border: 3px solid #711907;
@@ -122,19 +142,6 @@ li {
     border-radius: 10px;
     width: 50%;
     padding-top: 13px;
-}
-
-.button1 {
-    padding: 23px 3px 23px 3px;
-    margin-top: -470px;
-    margin-left: 140px;
-    margin-bottom: -50px;
-}
-
-.button2 {
-    padding: 23px 3px 23px 3px;
-    margin-left: 100px;
-    margin-top: -900px;
 }
 
 .titre_liste {
