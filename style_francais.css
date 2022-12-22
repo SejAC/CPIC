@@ -107,9 +107,6 @@ li {
     position: relative;
     left: 200px;
     padding: 23px 3px 23px 3px;
-    margin-top: -470px;
-    margin-left: 140px;
-    margin-bottom: -50px;
 }
 
 #texte_bouton1 {
@@ -129,8 +126,6 @@ li {
     position: relative;
     left: 150px;
     padding: 23px 3px 23px 3px;
-    margin-left: 100px;
-    margin-top: -900px;
 }
 
 #texte_bouton2 {
