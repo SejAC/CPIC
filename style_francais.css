@@ -111,7 +111,7 @@ li {
 
 #texte_bouton1 {
     position: relative;
-    
+    top: -300px;
     right: 0px;
     background-color: #DBD39C;
     border: 3px solid #711907;
@@ -130,7 +130,7 @@ li {
 
 #texte_bouton2 {
     position: relative;
-    
+    top: -300px;
     right: 0px;
     background-color: #DBD39C;
     border: 3px solid #711907;
