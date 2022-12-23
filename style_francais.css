@@ -12,8 +12,7 @@ body {
 
 .contenu {
     background-color: #ffffea;
-    display: inline-block;
-    
+    display: block;
     padding: 5px 30px 5px 30px;
     max-width: 550px;
 }
@@ -111,8 +110,6 @@ li {
 
 #texte_bouton1 {
     position: relative;
-    top: -300px;
-    right: 0px;
     background-color: #DBD39C;
     border: 3px solid #711907;
     text-align: center;
@@ -130,8 +127,6 @@ li {
 
 #texte_bouton2 {
     position: relative;
-    top: -300px;
-    right: 0px;
     background-color: #DBD39C;
     border: 3px solid #711907;
     text-align: center;
@@ -186,9 +181,6 @@ li a:hover {
 a.active {
     background-color: #A7350F;
 }
-
-
-
 
 
 /* Gestion de l'apparence des liens : */
@@ -257,6 +249,7 @@ a.lien_fin:active {
     .contenu {
         max-width: none;
         margin: 20px 8% 20px 8%;
+        display: inline-block;
     }
     
             .button1 {
